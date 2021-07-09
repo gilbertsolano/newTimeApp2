@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		339D43F926989D37003BADF4 /* NewTimeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D43F826989D37003BADF4 /* NewTimeAppApp.swift */; };
+		339D43FB26989D37003BADF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D43FA26989D37003BADF4 /* ContentView.swift */; };
+		339D43FD26989D39003BADF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339D43FC26989D39003BADF4 /* Assets.xcassets */; };
+		339D440026989D39003BADF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339D43FF26989D39003BADF4 /* Preview Assets.xcassets */; };
+		339D440B26989D39003BADF4 /* NewTimeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D440A26989D39003BADF4 /* NewTimeAppTests.swift */; };
+		339D441626989D39003BADF4 /* NewTimeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D441526989D39003BADF4 /* NewTimeAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		339D440726989D39003BADF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339D43ED26989D37003BADF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339D43F426989D37003BADF4;
+			remoteInfo = NewTimeApp;
+		};
+		339D441226989D39003BADF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339D43ED26989D37003BADF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339D43F426989D37003BADF4;
+			remoteInfo = NewTimeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		339D43F526989D37003BADF4 /* NewTimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		339D43F826989D37003BADF4 /* NewTimeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimeAppApp.swift; sourceTree = "<group>"; };
+		339D43FA26989D37003BADF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		339D43FC26989D39003BADF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		339D43FF26989D39003BADF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		339D440126989D39003BADF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339D440626989D39003BADF4 /* NewTimeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewTimeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		339D440A26989D39003BADF4 /* NewTimeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimeAppTests.swift; sourceTree = "<group>"; };
+		339D440C26989D39003BADF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339D441126989D39003BADF4 /* NewTimeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewTimeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		339D441526989D39003BADF4 /* NewTimeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimeAppUITests.swift; sourceTree = "<group>"; };
+		339D441726989D39003BADF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		339D43F226989D37003BADF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339D440326989D39003BADF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339D440E26989D39003BADF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		339D43EC26989D37003BADF4 = {
+			isa = PBXGroup;
+			children = (
+				339D43F726989D37003BADF4 /* NewTimeApp */,
+				339D440926989D39003BADF4 /* NewTimeAppTests */,
+				339D441426989D39003BADF4 /* NewTimeAppUITests */,
+				339D43F626989D37003BADF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		339D43F626989D37003BADF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				339D43F526989D37003BADF4 /* NewTimeApp.app */,
+				339D440626989D39003BADF4 /* NewTimeAppTests.xctest */,
+				339D441126989D39003BADF4 /* NewTimeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		339D43F726989D37003BADF4 /* NewTimeApp */ = {
+			isa = PBXGroup;
+			children = (
+				339D43F826989D37003BADF4 /* NewTimeAppApp.swift */,
+				339D43FA26989D37003BADF4 /* ContentView.swift */,
+				339D43FC26989D39003BADF4 /* Assets.xcassets */,
+				339D440126989D39003BADF4 /* Info.plist */,
+				339D43FE26989D39003BADF4 /* Preview Content */,
+			);
+			path = NewTimeApp;
+			sourceTree = "<group>";
+		};
+		339D43FE26989D39003BADF4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				339D43FF26989D39003BADF4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		339D440926989D39003BADF4 /* NewTimeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				339D440A26989D39003BADF4 /* NewTimeAppTests.swift */,
+				339D440C26989D39003BADF4 /* Info.plist */,
+			);
+			path = NewTimeAppTests;
+			sourceTree = "<group>";
+		};
+		339D441426989D39003BADF4 /* NewTimeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				339D441526989D39003BADF4 /* NewTimeAppUITests.swift */,
+				339D441726989D39003BADF4 /* Info.plist */,
+			);
+			path = NewTimeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		339D43F426989D37003BADF4 /* NewTimeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339D441A26989D39003BADF4 /* Build configuration list for PBXNativeTarget "NewTimeApp" */;
+			buildPhases = (
+				339D43F126989D37003BADF4 /* Sources */,
+				339D43F226989D37003BADF4 /* Frameworks */,
+				339D43F326989D37003BADF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewTimeApp;
+			productName = NewTimeApp;
+			productReference = 339D43F526989D37003BADF4 /* NewTimeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		339D440526989D39003BADF4 /* NewTimeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339D441D26989D39003BADF4 /* Build configuration list for PBXNativeTarget "NewTimeAppTests" */;
+			buildPhases = (
+				339D440226989D39003BADF4 /* Sources */,
+				339D440326989D39003BADF4 /* Frameworks */,
+				339D440426989D39003BADF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339D440826989D39003BADF4 /* PBXTargetDependency */,
+			);
+			name = NewTimeAppTests;
+			productName = NewTimeAppTests;
+			productReference = 339D440626989D39003BADF4 /* NewTimeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		339D441026989D39003BADF4 /* NewTimeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339D442026989D39003BADF4 /* Build configuration list for PBXNativeTarget "NewTimeAppUITests" */;
+			buildPhases = (
+				339D440D26989D39003BADF4 /* Sources */,
+				339D440E26989D39003BADF4 /* Frameworks */,
+				339D440F26989D39003BADF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339D441326989D39003BADF4 /* PBXTargetDependency */,
+			);
+			name = NewTimeAppUITests;
+			productName = NewTimeAppUITests;
+			productReference = 339D441126989D39003BADF4 /* NewTimeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		339D43ED26989D37003BADF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					339D43F426989D37003BADF4 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					339D440526989D39003BADF4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 339D43F426989D37003BADF4;
+					};
+					339D441026989D39003BADF4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 339D43F426989D37003BADF4;
+					};
+				};
+			};
+			buildConfigurationList = 339D43F026989D37003BADF4 /* Build configuration list for PBXProject "NewTimeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 339D43EC26989D37003BADF4;
+			productRefGroup = 339D43F626989D37003BADF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				339D43F426989D37003BADF4 /* NewTimeApp */,
+				339D440526989D39003BADF4 /* NewTimeAppTests */,
+				339D441026989D39003BADF4 /* NewTimeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		339D43F326989D37003BADF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339D440026989D39003BADF4 /* Preview Assets.xcassets in Resources */,
+				339D43FD26989D39003BADF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339D440426989D39003BADF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339D440F26989D39003BADF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		339D43F126989D37003BADF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339D43FB26989D37003BADF4 /* ContentView.swift in Sources */,
+				339D43F926989D37003BADF4 /* NewTimeAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339D440226989D39003BADF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339D440B26989D39003BADF4 /* NewTimeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339D440D26989D39003BADF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339D441626989D39003BADF4 /* NewTimeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		339D440826989D39003BADF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339D43F426989D37003BADF4 /* NewTimeApp */;
+			targetProxy = 339D440726989D39003BADF4 /* PBXContainerItemProxy */;
+		};
+		339D441326989D39003BADF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339D43F426989D37003BADF4 /* NewTimeApp */;
+			targetProxy = 339D441226989D39003BADF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339D441826989D39003BADF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		339D441926989D39003BADF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		339D441B26989D39003BADF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NewTimeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5LLC6AWM8M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NewTimeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gilbertsolano.NewTimeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		339D441C26989D39003BADF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NewTimeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5LLC6AWM8M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NewTimeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gilbertsolano.NewTimeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		339D441E26989D39003BADF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LLC6AWM8M;
+				INFOPLIST_FILE = NewTimeAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gilbertsolano.NewTimeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewTimeApp.app/NewTimeApp";
+			};
+			name = Debug;
+		};
+		339D441F26989D39003BADF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LLC6AWM8M;
+				INFOPLIST_FILE = NewTimeAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gilbertsolano.NewTimeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewTimeApp.app/NewTimeApp";
+			};
+			name = Release;
+		};
+		339D442126989D39003BADF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LLC6AWM8M;
+				INFOPLIST_FILE = NewTimeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gilbertsolano.NewTimeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewTimeApp;
+			};
+			name = Debug;
+		};
+		339D442226989D39003BADF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LLC6AWM8M;
+				INFOPLIST_FILE = NewTimeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gilbertsolano.NewTimeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewTimeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		339D43F026989D37003BADF4 /* Build configuration list for PBXProject "NewTimeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339D441826989D39003BADF4 /* Debug */,
+				339D441926989D39003BADF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339D441A26989D39003BADF4 /* Build configuration list for PBXNativeTarget "NewTimeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339D441B26989D39003BADF4 /* Debug */,
+				339D441C26989D39003BADF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339D441D26989D39003BADF4 /* Build configuration list for PBXNativeTarget "NewTimeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339D441E26989D39003BADF4 /* Debug */,
+				339D441F26989D39003BADF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339D442026989D39003BADF4 /* Build configuration list for PBXNativeTarget "NewTimeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339D442126989D39003BADF4 /* Debug */,
+				339D442226989D39003BADF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 339D43ED26989D37003BADF4 /* Project object */;
+}
