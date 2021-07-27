@@ -3,16 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3347AC2C26AB445C000D653D /* NewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3347AC2B26AB445C000D653D /* NewItem.swift */; };
 		339D43F926989D37003BADF4 /* NewTimeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D43F826989D37003BADF4 /* NewTimeAppApp.swift */; };
 		339D43FB26989D37003BADF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D43FA26989D37003BADF4 /* ContentView.swift */; };
 		339D43FD26989D39003BADF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339D43FC26989D39003BADF4 /* Assets.xcassets */; };
 		339D440026989D39003BADF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339D43FF26989D39003BADF4 /* Preview Assets.xcassets */; };
 		339D440B26989D39003BADF4 /* NewTimeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D440A26989D39003BADF4 /* NewTimeAppTests.swift */; };
 		339D441626989D39003BADF4 /* NewTimeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D441526989D39003BADF4 /* NewTimeAppUITests.swift */; };
+		33BBF2C22698BF69007DB462 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 33BBF2C12698BF69007DB462 /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3347AC2B26AB445C000D653D /* NewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItem.swift; sourceTree = "<group>"; };
 		339D43F526989D37003BADF4 /* NewTimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		339D43F826989D37003BADF4 /* NewTimeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimeAppApp.swift; sourceTree = "<group>"; };
 		339D43FA26989D37003BADF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33BBF2C22698BF69007DB462 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +101,7 @@
 			children = (
 				339D43F826989D37003BADF4 /* NewTimeAppApp.swift */,
 				339D43FA26989D37003BADF4 /* ContentView.swift */,
+				3347AC2B26AB445C000D653D /* NewItem.swift */,
 				339D43FC26989D39003BADF4 /* Assets.xcassets */,
 				339D440126989D39003BADF4 /* Info.plist */,
 				339D43FE26989D39003BADF4 /* Preview Content */,
@@ -146,6 +151,9 @@
 			dependencies = (
 			);
 			name = NewTimeApp;
+			packageProductDependencies = (
+				33BBF2C12698BF69007DB462 /* SwiftUICharts */,
+			);
 			productName = NewTimeApp;
 			productReference = 339D43F526989D37003BADF4 /* NewTimeApp.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +225,9 @@
 				Base,
 			);
 			mainGroup = 339D43EC26989D37003BADF4;
+			packageReferences = (
+				33BBF2C02698BF68007DB462 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 339D43F626989D37003BADF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3347AC2C26AB445C000D653D /* NewItem.swift in Sources */,
 				339D43FB26989D37003BADF4 /* ContentView.swift in Sources */,
 				339D43F926989D37003BADF4 /* NewTimeAppApp.swift in Sources */,
 			);
@@ -580,6 +592,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		33BBF2C02698BF68007DB462 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		33BBF2C12698BF69007DB462 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33BBF2C02698BF68007DB462 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 339D43ED26989D37003BADF4 /* Project object */;
 }
