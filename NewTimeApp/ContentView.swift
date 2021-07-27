@@ -19,6 +19,7 @@ struct ContentView: View {
     @State var selectedHours: Int = 0
     @State var selectedMinutes: Int = 0
     
+    
     let icons = ["house", "plus", "gear"]
     
     var searchBar : some View {
@@ -64,6 +65,14 @@ struct ContentView: View {
                                 Section(header: Text("Overview")){
                                     PieChartView(data: [1, 2, 3],
                                                  title: "Daily Summary")
+                                    BarChartView(
+                                         data: ChartData(values: [
+                                             ("hello", 10),
+                                             ("goodbye", 7)
+                                         ]), title: "Bar Chart"
+                                     )
+                                    LineChartView(data: [3,2],
+                                            title: "Productivity Rate")
                                 }
                             }.navigationBarItems(trailing: EditButton())
                         }
