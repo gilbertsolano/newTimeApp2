@@ -92,7 +92,7 @@ struct ContentView: View {
                             HStack {
                                 Picker("", selection: $selectedHours){
                                     ForEach(0..<24, id: \.self) { i in
-                                        Text("\(i) hours").tag(i)
+                                        Text("\(i) hourssssss").tag(i)
                                     }
                                 }.pickerStyle(WheelPickerStyle()).frame(width: 100).clipped()
                             
