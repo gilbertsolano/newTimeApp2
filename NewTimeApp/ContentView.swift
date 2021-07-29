@@ -105,7 +105,7 @@ struct ContentView: View {
                             }.padding(.horizontal)
                             
                             //Session Duration
-                            Text("Session Duration: \(selectedHours) hours and \(selectedMinutes) minutes")
+                            Text("Session Duration: \(selectedHours) hours and \(selectedMinutes) minutesssss")
                         }.navigationTitle("Add Tasks")
                     }
                 default:
